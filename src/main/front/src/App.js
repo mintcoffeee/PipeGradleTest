@@ -27,8 +27,8 @@ const App = () => {
   return (
     <div>
       <header>
-        <img src={img1} style={{ width: "200px" }} />
-        <h1>TEST_5</h1>
+        <img src={img1} style={{ width: "200px" }} alt="" />
+        <h1>TEST_6</h1>
         <ul style={{ listStyle: "none" }}>
           {message.map((item, index) => (
             <li key={index}>{item}</li>
